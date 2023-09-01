@@ -2,7 +2,7 @@
   display: flex;
   align-items: flex-start;
   height: 100%;
-  margin-left: 20px;
+  padding-left: 20px;
   background-color: rgb(20, 19, 25);
   color: #e2e2e2;
 }
@@ -34,7 +34,7 @@
     margin-left: 0px;
   }
   .container {
-    margin-left: 0px;
+    padding-left: 0px;
   }
   .nameHeading {
     font-size: 25px;
