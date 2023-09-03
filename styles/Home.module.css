@@ -26,7 +26,7 @@
   gap: 15px;
   border-radius: 15px;
 }
-@media screen and (width <= 765px) {
+@media screen and (max-width: 765px) {
   .navHeader {
     display: none;
   }
@@ -46,7 +46,7 @@
     justify-content: center;
   }
 }
-@media screen and (width > 765px) {
+@media screen and (min-width: 766px) {
   .mainContainer {
     margin-left: 270px;
   }
@@ -80,11 +80,7 @@
 }
 .Headers {
   padding: 10px;
-  height: 90px;
-  width: 100vw;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  width: 100%;
   position: fixed;
   background-color: rgb(20, 19, 25);
 }
@@ -135,13 +131,14 @@
 }
 
 .cards:hover {
-  border-width: 4px;
-  border-style: solid;
-  border-color: #4088e0;
+  outline-color: #4088e0;
+  outline-style: double;
+  outline-width: 5px;
+  outline-offset: 5px;
 }
 .images {
   height: 110px;
-  width: 272px;
+  width: 280px;
   border-top-left-radius: 16px;
   border-top-right-radius: 16px;
 }
@@ -149,4 +146,13 @@
 .customList {
   list-style: square;
   list-style-position: inside;
+}
+.mobileMenu {
+  display: flex;
+  flex-direction: column;
+}
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
