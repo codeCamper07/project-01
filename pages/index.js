@@ -104,7 +104,7 @@ export default function Home() {
                         }}>
                         College
                       </span>
-                      : ICFAI Business School (2021)
+                      : Sri Chaithanya Jr Kalasala (2018)
                     </p>
                     <p>
                       <span
@@ -112,9 +112,9 @@ export default function Home() {
                           fontWeight: '600',
                           textDecoration: 'underline',
                         }}>
-                        Degree
+                        Group
                       </span>
-                      : BBA
+                      : MPC
                     </p>
                     <p>
                       <span
@@ -124,12 +124,12 @@ export default function Home() {
                         }}>
                         CGPA
                       </span>
-                      : 6.52
+                      : 6.45
                     </p>
                   </div>
                 </div>
                 <div>
-                  <h3>School</h3>
+                  <h3>10Th Standard</h3>
                   <div style={{ padding: '10px' }}>
                     <p>
                       <span
@@ -139,7 +139,7 @@ export default function Home() {
                         }}>
                         College
                       </span>
-                      : ICFAI Business School (2021)
+                      : Internationl school (IEA) (2016)
                     </p>
                     <p>
                       <span
@@ -149,7 +149,7 @@ export default function Home() {
                         }}>
                         Degree
                       </span>
-                      : BBA
+                      : 10Th
                     </p>
                     <p>
                       <span
@@ -157,9 +157,9 @@ export default function Home() {
                           fontWeight: '600',
                           textDecoration: 'underline',
                         }}>
-                        CGPA
+                        Percentage
                       </span>
-                      : 6.52
+                      : 65%
                     </p>
                   </div>
                 </div>
