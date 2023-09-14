@@ -14,6 +14,7 @@ const Header = () => {
       <div className={style.menu}>
         <img src='/ThomasMiller.png' alt='logo' className={style.logo} />
         <button
+          className={style.navigationButton}
           style={{ backgroundColor: 'rgb(20, 19, 25)', border: '0px' }}
           onClick={menuToggle}>
           {menuActive ? <ClearTwoToneIcon /> : <MenuTwoToneIcon />}

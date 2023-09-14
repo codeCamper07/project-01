@@ -32,7 +32,9 @@ export default function Home() {
         <div className={styles.mainContainer}>
           <Header />
           <div className={styles.contentContainer}>
-            <NameCard />
+            <div>
+              <NameCard />
+            </div>
             <Projects />
             <div id='aboutme'>
               <h1>About Me</h1>
@@ -54,13 +56,121 @@ export default function Home() {
                 integration of cutting-edge technologies into high-performance,
                 full-stack solutions.
               </p>
+              <div>
+                <h1>Education Details</h1>
+                <div>
+                  <h3>College</h3>
+                  <div style={{ padding: '10px' }}>
+                    <p>
+                      <span
+                        style={{
+                          fontWeight: '600',
+                          textDecoration: 'underline',
+                        }}>
+                        College
+                      </span>
+                      : ICFAI Business School (2021)
+                    </p>
+                    <p>
+                      <span
+                        style={{
+                          fontWeight: '600',
+                          textDecoration: 'underline',
+                        }}>
+                        Degree
+                      </span>
+                      : BBA
+                    </p>
+                    <p>
+                      <span
+                        style={{
+                          fontWeight: '600',
+                          textDecoration: 'underline',
+                        }}>
+                        CGPA
+                      </span>
+                      : 6.52
+                    </p>
+                  </div>
+                </div>
+                <div>
+                  <h3>Intermediate</h3>
+                  <div style={{ padding: '10px' }}>
+                    <p>
+                      <span
+                        style={{
+                          fontWeight: '600',
+                          textDecoration: 'underline',
+                        }}>
+                        College
+                      </span>
+                      : ICFAI Business School (2021)
+                    </p>
+                    <p>
+                      <span
+                        style={{
+                          fontWeight: '600',
+                          textDecoration: 'underline',
+                        }}>
+                        Degree
+                      </span>
+                      : BBA
+                    </p>
+                    <p>
+                      <span
+                        style={{
+                          fontWeight: '600',
+                          textDecoration: 'underline',
+                        }}>
+                        CGPA
+                      </span>
+                      : 6.52
+                    </p>
+                  </div>
+                </div>
+                <div>
+                  <h3>School</h3>
+                  <div style={{ padding: '10px' }}>
+                    <p>
+                      <span
+                        style={{
+                          fontWeight: '600',
+                          textDecoration: 'underline',
+                        }}>
+                        College
+                      </span>
+                      : ICFAI Business School (2021)
+                    </p>
+                    <p>
+                      <span
+                        style={{
+                          fontWeight: '600',
+                          textDecoration: 'underline',
+                        }}>
+                        Degree
+                      </span>
+                      : BBA
+                    </p>
+                    <p>
+                      <span
+                        style={{
+                          fontWeight: '600',
+                          textDecoration: 'underline',
+                        }}>
+                        CGPA
+                      </span>
+                      : 6.52
+                    </p>
+                  </div>
+                </div>
+              </div>
             </div>
             <div id='skills'>
               <h1>Skills</h1>
               {skill.map((items, i) => (
                 <div key={i}>
-                  <h2>{items.category}</h2>
-                  <ul style={{ display: 'flex', gap: '20px' }}>
+                  <h3>{items.category}</h3>
+                  <ul style={{ display: 'flex', gap: '20px', padding: '25px' }}>
                     {items.skills.map((eveySkill, j) => (
                       <li key={j}>{eveySkill}</li>
                     ))}
